@@ -550,23 +550,6 @@ body{
 }
 
 
-.text-primary-300 {
-  color: var(--clr-primary-300);
-}
-.text-accent-200 {
-  color: var(--clr-accent-200);
-}
-.text-accent-100 {
-  color: var(--clr-accent-100);
-}
-.text-neutral-600 {
-  color: var(--clr-neutral-600);
-}
-.text-neutral-500 {
-  color: var(--clr-neutral-500);
-}
-
-
 .bg-acc-200 {
   background-color: var(--clr-accent-200);
 }
@@ -585,10 +568,6 @@ body{
   font-weight: var(--fw-regular);
 }
 
-.fs-header {
-  font-size: var(--fs-primary);
-  line-height: 1.1;
-}
 .fs-body{
   font-size: var(--fs-300);
   line-height: 1.4;
