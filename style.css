@@ -500,41 +500,6 @@ footer svg {
 }
 
 
-/* social list */
-
-/* @media(max-width:47em) {
-  .footer-social-list-wrapper {
-    display: grid;
-    justify-content: center;
-  }
-}
-
-.footer-social-list {
-  display: flex;
-  gap: 0.9rem;
-}
-
-.footer-social-list  .social-icon {
-  object-fit: contain;
-  outline: 1.3px solid var(--clr-neutral-500);
-  padding: 0.5rem;
-  border-radius: 50%;
-
-  width: 30px;
-  height: 30px;
-}
-
-.footer-social-list a:is(:hover) .social-icon{
-  fill: var(--clr-accent-100)
-}
-
-@media(min-width: 47em) {
-  .footer-social-list {
-    position: relative;
-    top: 40%;
-  }
-} */
-
 @media(max-width:47em) {
   .social-list-wrapper {
     display: grid;
