@@ -59,8 +59,10 @@
         </div>
       </section>
     
+      <!-- background images -->
       <img src="images/bg-curve-desktop.svg" alt="" class="s-img">
       <img src="images/bg-curve-mobile.svg" alt="" class="s-img-1">
+
       <section class="padding-block-end-700 fs-body s-2">
         <div class="container">
           <div class="even-columns flow d-2">
@@ -75,21 +77,23 @@
                       Never let location be an issue when accessing your files. Fylo has you
                       covered for all of your file storage needs.
                     </p>
-                    <p class="padding-block-end-650">
+                    <p class="padding-block-end-300">
                       Securely share files and folders with friends, family and colleagues for
                       live collaboration. No email attachments required!
                     </p>
                   </div>
-                  <div class="t-d-wrapper padding-block-end-690">
-                    <div class="t-d">
+                  <div class="link-wrapper padding-block-end-690">
+                    <div class="link">
                       <p><a href="#">See how Fylo works</a></p>
-                      <div class="h-img">
-                        <img src="images/icon-arrow.svg" alt="">
-                      </div>
+                      
+                        <svg class="link-icon">
+                          <use xlink:href="images/icon-arrow.svg#icon-arrow"></use>
+                        </svg>
+                      
                     </div>
                   </div>
                 </div>
-                <div class="testimonial-cont-wrapper | dx-auto fs-test">
+                <div class="testimonial-cont-wrapper | dx-auto">
                   <div class="testimonial-cont">
                     <img src="images/icon-quotes.svg" alt="">
                     <p>Fylo has improved our team productivity by an order of magnitude. Since
@@ -156,28 +160,42 @@
             </div>
           </div>
     
-          <nav class="foot-nav">
-            <ul class="footer-nav-list">
-              <div>
+          <nav>
+            <div class="footer-nav">
+              <ul class="footer-nav-list">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">jobs</a></li>
                 <li><a href="#">Press</a></li>
                 <li><a href="#">Blog</a></li>
-              </div>
-    
-              <div>
+              </ul>
+
+              <ul class="footer-nav-list">
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Privacy</a></li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </nav>
     
-          <div class="footer-social-list-wrapper">
-            <ul class="footer-social-list">
-              <div><a href="#"><img src="images/icon-facebook.svg" alt=""></a></div>
-              <div><a href="#"><img src="images/icon-twitter.svg" alt=""></a></div>
-              <div><a href="#"><img src="images/icon-instagram.svg" alt=""></a></div>
+          <div class="social-list-wrapper">
+            <ul class="social-list" role="list">
+              <li><a href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/icon-facebook.svg#icon-facebook"></use>
+                </svg></a>
+              </li>
+              <li><a href="#">
+                  <svg class="social-icon">
+                    <use xlink:href="images/icon-twitter-1.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#">
+                  <svg class="social-icon">
+                    <use xlink:href="images/icon-instagram.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
